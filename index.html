@@ -1,0 +1,400 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Puppyland!</title>
+
+    
+</head>
+
+<body>
+  
+        <div id="container">
+
+                <main>
+<div class="window" style="width:auto;height:auto;">
+  <h3><div class="text"><span>Welcome Message</span></div> <a href="#" class="close">Close</a></h3>
+  <div class="content">
+                       <p>
+                  <div id="cornerskeppy"><img src="assets/img/mini_skeppy.png" width="200"></div>
+                  <div class="containment">
+                    <div class="floatingskep"><img loading="lazy" src="assets/img/skeppy.png"></div>                
+<div class="alignedtext"><h2>*barks!*</h2>
+                             <p>welcome to my webbed site!</p><p>
+  </p>
+              <p></p><p>i am a brainweird plural alterhuman furrything who happens to reside in the interwebs!</p> 
+              <p>im 18 years old and use he/it/pup pronouns.</p>
+  <p>ive come to realize that making a website so i could have "a place of my own" again would be nice. im hoping to update this place frequently ^_^</p>
+                  <p>this is my place to put whatever, or maybe nothing at all!</p>
+  </div>
+                              
+                    
+                  </div>
+                  </div>
+                    
+
+                </main>
+                  
+                                 <p><img class="stamps" src="assets/stamps/cohost.gif" alt="a moving stamp that says I was on cohost"> <img class="stamps" src="assets/stamps/rejecthumanity.png"> <img class="stamps" src="assets/stamps/rainbow_bev.gif"> <img class="stamps" src="assets/stamps/cyberdog.gif"> <img class="stamps" src="assets/stamps/transrightsnow.gif"> <img class="stamps" src="assets/stamps/twopaws.png"></p> 
+            </div>
+            
+            <div id="side"> 
+<div class="side img">
+<img style="margin:0 0 5px 0" src="https://skepy.neocities.org/assets/img/rainbow2.png" width="180px"></div>
+
+<table style="border:3px ridge white; overflow:auto; width:100%; background:transparent;">
+<tbody><tr>
+<td style="border:3px outset white"><a href="/">webmaster</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white"><a href="/">blog</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white"><a href="/">fun!</a>
+</td>
+</tr>
+<tr>
+<td style="border:3px outset white;"><a href="https://skepy.neocities.org/art">my art</a>
+</td>
+</tr>
+</tbody></table>
+
+<div id="desc">
+WORK IN PROGRESS <img src="assets/img/computersmack.gif"> stay tuned :3 <img src="assets/img/swirl.gif">
+
+<p>
+</p><center>
+
+<p><img src="assets/stamps/skepy_stamp.gif"></p>
+
+<!-- credit  -->
+<div id="puppies">
+<a href="crouton.net">powered by puppies</a>
+</div>
+<!-- credit  -->
+</div>
+
+</div>
+            
+            
+        <!-- THIS IS THE CSS !-->
+        <style>
+            /* user styles */
+
+            /* styles are what change the color and sizes of stuff on your site. */
+
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
+
+            :root {
+                --body-bg-image: url('assets/bg/Bliss.jpg');
+
+                /* colors */
+                --content: #43256E;
+            }
+
+            body {
+                font-family:Arial;
+                margin: 0;
+                background-color: #08031A;
+                /* you can delete the line below if you'd prefer to not use an image */
+                color: #000000;
+                background-image: var(--body-bg-image);
+                background-size: cover;
+            }
+          
+                      
+            mark {
+  background-color: #d1e5ff;
+  color: black;
+}
+
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 580px;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                position: fixed;
+                top: 60px;
+                left: 400px;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #ED64F5;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #flex {
+                display: flex;
+            }
+            
+          /* sidebar */
+#side{
+left:0px;
+width:200px;
+height:100%;
+top:-1px;
+overflow-y:auto;
+overflow-x:hidden;
+padding-top:5px;
+padding-right:10px;
+padding-left:5px;
+border-right:3px white outset;
+background-color:white;
+position:fixed;}
+
+#desc{
+text-align:center;
+padding:5px;
+overflow:hidden;
+margin:10px 0 0 0;
+display:block;}
+
+.button{
+background:transparent;
+padding:5px;}
+.button:hover{
+cursor:help;}
+
+#table, th, td{ 
+font-family:Arial;
+width:100px;
+margin:10px 0 0 0;
+margin-left:-4px;
+text-align:center;
+background:transparent;}
+
+.side img{
+}
+/* sidebar end */
+          
+.containment { 
+    display: flex;
+}
+          
+    #cornerskeppy img {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+          
+          .floatingskep {
+             width: auto;
+            height: auto;
+          }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #ffffff;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+                /* this makes the sidebar text slightly smaller */
+            }
+
+          .window{
+  background:green;
+  border: 1px solid black;
+  border-radius:5px 5px 0 0;
+  display:flex;
+  flex-direction:column;
+  border-color: #0072ef #01279e #01279e #0236d8;
+  background:
+    linear-gradient(to right, #034fe1, #1682f2 1px, #006ee4 2px, rgba(0,0,0,0) 3px),
+    linear-gradient(to left, #0034b0, #0056e1 1px, #0064f4 2px, rgba(0,0,0,0) 3px),
+    linear-gradient(to top, #0034b1, #0056e1 1px, #0064f4 2px, rgba(0,0,0,0) 3px)
+    ;
+  *{
+    cursor: default;
+  }
+            h3{
+    background: #006fea;
+    line-height: 32px;
+    height:30px;
+    position:relative;
+    margin:0;
+    padding:0;
+    border-radius:3px 3px 0 0;
+    background-image:
+      linear-gradient(to right, #0050db, rgba(255,255,255,.1) 4px, rgba(255,255,255,0) 200px),
+      linear-gradient(to left, #0034b0, #0056e1 1px, #0064f4 2px, rgba(0,0,0,0) 3px),
+      linear-gradient(to bottom, #4aa9ff, #33a4ff 1px, #008aff 2px, #007ef4 3px, #0075f0 4px, rgba(0,0,0,0) 5px),
+      linear-gradient(to top, #005dd9, #0067e9 1px, #007afb 2px, #0081fb 3px, rgba(0,0,0,0) 4px);
+    font-family: sans-serif;
+    color:white;
+    font-weight: normal;
+    font-size:14px;
+    padding-left:8px;
+    text-shadow: 1px 1px 0 #0a2a95;
+  }
+
+  .content{
+    flex:1;
+    margin:0;
+    border: 1px solid #91adc6;
+    margin:0 2px 2px;
+  }
+  .close{
+    position:absolute;
+    right: 6px;
+    top: 6px;
+    height: 19px;
+    padding-left:19px;
+    width:0;
+    overflow:hidden;
+    border:1px solid white;
+    border-radius: 3px;
+    background:
+      radial-gradient(circle at 20px 20px, #e84f00, rgba(255,255,255,0)),
+      radial-gradient(circle at -5px -5px, white, rgba(255,255,255,.3), rgba(255,255,255,0)),
+      linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0)),
+      linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,0))
+      ;
+    background-color: #e81000;
+    &:after{
+      content:"";
+      display:block;
+      position:absolute;
+      top:0;
+      right:0;
+      left:0;
+      bottom:0;
+      border:1px solid rgba(33,0,0,0.2);
+      border-radius: 2px;
+    }
+    &:before{
+      content:"×";
+      position:absolute;
+      left:2.5px;
+      top:-7px;
+      color: white;
+      text-shadow:none;
+      font-size:23px;
+    }
+    
+            }
+            
+          }
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #ffffff;
+                flex: 1;
+                border-radius: 4px;
+              height: auto;
+                order: 2;
+              
+            }
+          
+                    
+          .stamps{
+            width: 88px;
+            height: 31px;
+            
+          }
+            
+
+          h2 {
+    font-size: 48px;
+    margin: 0px;
+          }
+          
+          h1 {
+                color: #ED64F5;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #ED64F5;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #13092D;
+                border: 1px solid #ED64F5;
+                padding: 10px;
+            }
+            
+            /* credit */
+#puppies{
+margin:20px 0 0 0;
+font-size:15px}
+/* end credit */
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 580px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            
+          }
+             
+        </style>
+
+    
+</body>
